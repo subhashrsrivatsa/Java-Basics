@@ -29,5 +29,6 @@ public class Compare2Nos {
 		}
 		else 
 			System.out.println(a+" ss greater than "+b);
+		s.close();
 	}
 }

@@ -37,7 +37,7 @@ public class DecimalNumberCoversions {
 	}
 	
 	private static void OctalNumber(int dec_num) {
-		 int rem, quot, i=1, j;
+		 int quot, i=1, j;
 	        int oct_num[] = new int[100];
 	        
 	        quot = dec_num;
@@ -84,6 +84,8 @@ public class DecimalNumberCoversions {
 		BinaryNumber(dec_num);
 		OctalNumber(dec_num);
 		HexaDecimal(dec_num);
+		
+		s.close();
 
 	}
 
