@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.subhash.javabasics.strings;
+package com.subhash.javabasics.arrays;
 
 import java.util.Scanner;
 
